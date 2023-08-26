@@ -1,0 +1,148 @@
+
+<app-header></app-header>
+
+
+<h3>Call function in Angular</h3>
+
+<h2>{{name}}</h2>
+<!--<h2>{{getName()}}</h2>
+<button (click)="getname('Krishna')">Click</button>
+-->
+
+<h3>Important Events in Angular</h3>
+
+<!--<button (click)="myEvent('click event')">Click Me</button><br><br>
+<input type="text" (keyup)="myEvent('keyup event')"/><br><br> 
+<input type="text" #box (keyup)="myEvent(box.value)"/><br><br> 
+<input type="text" #box (keyup.enter)="myEvent(box.value)"/><br><br> 
+<input type="text" #box (keyup.space)="myEvent(box.value)"/><br><br>
+<input type="text" #box (keydown)="myEvent(box.value)"/><br><br> 
+<input type="text"  (bl ur)="myEvent('blur event')"/><br><br>-->
+
+
+<h3>Get TextBox Value in Angular</h3>
+<!-- 
+
+<input type="text" #box/>
+<button (click)="getVal(box.value)">Get Value</button>
+<h2>{{currentval}}</h2>
+ -->
+
+<H3>Property Binding In Angular</H3>
+
+<!--<input type="text" [disabled]="disabledBox" [value]="name"/><br><br>
+<input type="text"  [disabled]="disabledBox"  value={{name}}/><br><br>
+<button (click)="enableBox()">Enable TextBox</button>-->
+
+<h3>Conditions in Angular</h3>
+
+<!--<h2 *ngIf="show=='yes';then ifBlock else elseBlock">
+   
+</h2>
+<ng-template #ifBlock>
+    <h1>if block</h1>
+    
+    </ng-template>
+<ng-template #elseBlock>
+<h1>else block</h1>
+</ng-template>
+-->
+<!--<ng-template [ngIf]="show=='red'">
+    <h2>Red Block</h2>
+</ng-template>
+<ng-template [ngIf]="show=='green'">
+    <h2>green Block</h2>
+</ng-template>
+<ng-template [ngIf]="show=='blue'">
+    <h2>blue Block</h2>
+</ng-template>-->
+
+<!--<div [ngSwitch]="color">
+    <h2  style="color:red" *ngSwitchCase="'red'">
+        Red Color</h2>
+</div>
+<div [ngSwitch]="color">
+    <h2  style="color:blue" *ngSwitchCase="'blue'">
+        Blue Color</h2>
+</div>
+<div [ngSwitch]="color">
+    <h2  style="color:yellow" *ngSwitchCase="'yellow'">
+        yellow Color</h2>
+</div>-->
+
+<h3>For loop in Angular</h3>
+
+<!--<h4 *ngFor="let item of data">{{item.name}}</h4>-->
+<!--<table border="1" >
+    <tr *ngFor="let item of data" >
+        <td>{{item.name}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.address}}</td>
+    </tr>
+</table>-->
+
+<h3>Simple Form In Angular</h3>
+
+<!--<form #simpleForm="ngForm"(ngSubmit)="getUserValue(simpleForm.value)">
+<input type="text" ngModel name="username" placeholder="entername"/><br><br>
+<input type="text" ngModel name="age" placeholder="enter age"/><br><br>
+<input type="text" ngModel name="address" placeholder="enter address"/><br><br>
+<button>Submit</button>
+
+</form>-->
+
+<h3>Pass Data To Child Component</h3>
+<!--<app-user [hero]="data"></app-user>-->
+
+
+<h3>Reusable Component in Angular</h3>
+<!--<div *ngFor="let data of users">
+<app-user [hero]="data"></app-user>
+</div>-->
+
+<h3>Send data child to Parent Component</h3>
+
+<!--<app-user (parentComponent)="parentComponent($event)"></app-user>
+<br><br>
+<h3>{{data.name}}</h3>-->
+
+<h3>Pipe In Angular</h3>
+
+<!--{{name | titlecase }}
+<h2>{{today | date:'fullDate'}}</h2>
+<h2>{{str | slice:2:5}}</h2>
+<h2>{{val | currency:'USD'}}</h2>
+-->
+
+<h3>Router in Angular</h3>
+<!--<a routerLink="user">User</a><br><br>
+<a routerLink="admin">Admin</a><br><br>
+<a routerLink="about">About</a><br><br>
+<a routerLink="contact">Contact</a><br><br>
+<router-outlet></router-outlet>-->
+
+<h3>Service in Angular</h3>
+<!--<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Title</td>
+        <td>User Id</td>
+    </tr>
+    <tr *ngFor="let item of data">
+       <td>{{item.id}}</td>
+       <td>{{item.title}}</td>
+       <td>{{item.userId}}</td>
+    </tr>
+
+</table>   -->
+
+<h3>Recap Routing or Module in Angular</h3>
+
+<!--<ul>
+    <li><a routerLink="signup">Signup</a></li>
+    <li><a routerLink="login">Login</a></li>
+   
+</ul>
+<router-outlet></router-outlet>-->
+
+
